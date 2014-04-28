@@ -6,7 +6,7 @@
  * @author chekun
  * @version 1.0.0
  * @dependence 9.9.2-*
- * @link http://typecho.org
+ * @link http://me.dilicms.com/coding/github-card.html
  */
 class GithubCard_Plugin implements Typecho_Plugin_Interface
 {
@@ -19,8 +19,8 @@ class GithubCard_Plugin implements Typecho_Plugin_Interface
      */
     public static function activate()
     {
-	    Typecho_Plugin::factory('Widget_Abstract_Contents')->contentEx = array('GithubCard_Plugin', 'parse');
-        Typecho_Plugin::factory('Widget_Abstract_Contents')->excerptEx = array('GithubCard_Plugin', 'parse');
+	Typecho_Plugin::factory('Widget_Abstract_Contents')->contentEx = array('GithubCard_Plugin', 'parse');
+	Typecho_Plugin::factory('Widget_Abstract_Contents')->excerptEx = array('GithubCard_Plugin', 'parse');
         Typecho_Plugin::factory('Widget_Abstract_Comments')->contentEx = array('GithubCard_Plugin', 'parse');
         Typecho_Plugin::factory('Widget_Archive')->footer = array('GithubCard_Plugin', 'footer');
     }
