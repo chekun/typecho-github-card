@@ -10,11 +10,11 @@ Github Card for Typecho
 激活后使用：
 
 ```
-[card]chekun[/card] //潜入用户卡片
+[card]chekun[/card] //嵌入用户卡片
 ```
 
 ```
-[card]chekun/typecho-github-card[/card] //潜入项目卡片
+[card]chekun/typecho-github-card[/card] //嵌入项目卡片
 ```
 
 本项目使用了 [lepture/github-cards](https://github.com/lepture/github-cards).
