@@ -3,7 +3,11 @@ Github Card for Typecho
 
 本插件实现在Typecho中嵌入github的用户或者项目的卡片。
 
-用法很简单：
+下载插件：
+
+    git clone https://github.com/chekun/typecho-github-card.git /typecho-plugin-path/GithubCard
+
+激活后使用：
 
 ```
 [card]chekun[/card] //潜入用户卡片
